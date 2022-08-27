@@ -1,0 +1,16 @@
+{
+  "name": "yuan-bot",
+  "version": "0.0.1",
+  "repository": "git@github.com:beryll1um/yuan-bot.git",
+  "author": "beryll1um <vitalii.babichuk@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.3.0",
+    "tsc": "^2.0.4",
+    "typescript": "^4.8.2"
+  }
+}
